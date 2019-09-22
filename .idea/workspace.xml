@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="" />
+    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complete Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompleteJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/META-INF/Complete Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/BooleanDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/ByteDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/CharDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/DoubleDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/FloatDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/IntDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/LongDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/primitiveDataTypes/ShortDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Complete Java/javaConcepts/core/string/StringAsDataType.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/string/StringAsDataType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,6 +113,11 @@
             <path>
               <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -113,6 +132,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,7 +174,7 @@
   <component name="RunManager" selected="Application.StringAsDataType">
     <configuration name="BooleanDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.BooleanDataType" />
-      <module name="Complete Java" />
+      <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
@@ -160,7 +187,7 @@
     </configuration>
     <configuration name="ByteDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.ByteDataType" />
-      <module name="Complete Java" />
+      <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
@@ -173,7 +200,7 @@
     </configuration>
     <configuration name="CharDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.CharDataType" />
-      <module name="Complete Java" />
+      <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
@@ -186,7 +213,7 @@
     </configuration>
     <configuration name="DoubleDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.DoubleDataType" />
-      <module name="Complete Java" />
+      <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
@@ -199,13 +226,60 @@
     </configuration>
     <configuration name="StringAsDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.string.StringAsDataType" />
-      <module name="Complete Java" />
+      <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.core.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="CompleteJava" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="CompleteJava" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,17 +309,18 @@
       <option name="presentableId" value="Default" />
       <updated>1568383249716</updated>
       <workItem from="1568383260729" duration="829000" />
-      <workItem from="1569140360512" duration="4701000" />
+      <workItem from="1569140360512" duration="4983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5530000" />
+    <option name="totallyTimeSpent" value="5812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -259,7 +334,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -342,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/string/StringAsDataType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
