@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="" />
+    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+            <state relative-caret-position="306">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="161">
+              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -53,6 +55,7 @@
       <find>q</find>
       <find>&amp;</find>
       <find>|</find>
+      <find>git</find>
     </findStrings>
     <replaceStrings>
       <replace>float</replace>
@@ -91,10 +94,11 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/core/dataTypes/BooleanDataType.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/string/StringAsDataType.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java" />
-        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/AssignmentOperator.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java" />
       </list>
     </option>
   </component>
@@ -117,17 +121,6 @@
             <path>
               <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AssignmentOperator">
+  <component name="RunManager" selected="Application.TernaryOperator">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.ArithmeticOperators" />
       <module name="CompleteJava" />
@@ -252,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringAsDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.string.StringAsDataType" />
+    <configuration name="TernaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.TernaryOperator" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaConcepts.core.string.*" />
+          <option name="PATTERN" value="javaConcepts.core.operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,19 +259,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringAsDataType" />
       <item itemvalue="Application.ArithmeticOperators" />
       <item itemvalue="Application.RelationalOperators" />
       <item itemvalue="Application.LogicalOperators" />
       <item itemvalue="Application.AssignmentOperator" />
+      <item itemvalue="Application.TernaryOperator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TernaryOperator" />
         <item itemvalue="Application.AssignmentOperator" />
         <item itemvalue="Application.LogicalOperators" />
         <item itemvalue="Application.RelationalOperators" />
         <item itemvalue="Application.ArithmeticOperators" />
-        <item itemvalue="Application.StringAsDataType" />
       </list>
     </recent_temporary>
   </component>
@@ -291,17 +284,18 @@
       <updated>1568383249716</updated>
       <workItem from="1568383260729" duration="829000" />
       <workItem from="1569140360512" duration="5112000" />
-      <workItem from="1569680598621" duration="8650000" />
+      <workItem from="1569680598621" duration="9406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14591000" />
+    <option name="totallyTimeSpent" value="15347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -315,7 +309,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -436,10 +430,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state relative-caret-position="272">
+          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -450,10 +459,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java">
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/AssignmentOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
