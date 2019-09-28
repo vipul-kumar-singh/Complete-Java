@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompleteJava/javaConcepts/core/operators/RelationalOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompleteJava/javaConcepts/core/operators/RelationalOperators.class" afterDir="false" />
-    </list>
+    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="82" column="45" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="45" />
+            <state relative-caret-position="1394">
+              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -203,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogicalOperators">
+  <component name="RunManager" selected="Application.AssignmentOperator">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.ArithmeticOperators" />
       <module name="CompleteJava" />
@@ -217,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BooleanDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.BooleanDataType" />
+    <configuration name="AssignmentOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.AssignmentOperator" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
+          <option name="PATTERN" value="javaConcepts.core.operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +266,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BooleanDataType" />
       <item itemvalue="Application.StringAsDataType" />
       <item itemvalue="Application.ArithmeticOperators" />
       <item itemvalue="Application.RelationalOperators" />
       <item itemvalue="Application.LogicalOperators" />
+      <item itemvalue="Application.AssignmentOperator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssignmentOperator" />
         <item itemvalue="Application.LogicalOperators" />
         <item itemvalue="Application.RelationalOperators" />
         <item itemvalue="Application.ArithmeticOperators" />
         <item itemvalue="Application.StringAsDataType" />
-        <item itemvalue="Application.BooleanDataType" />
       </list>
     </recent_temporary>
   </component>
@@ -295,16 +291,15 @@
       <updated>1568383249716</updated>
       <workItem from="1568383260729" duration="829000" />
       <workItem from="1569140360512" duration="5112000" />
-      <workItem from="1569680598621" duration="8345000" />
+      <workItem from="1569680598621" duration="8650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14286000" />
+    <option name="totallyTimeSpent" value="14591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,13 +309,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -336,17 +331,44 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>trueValue ^ trueValue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>falseValue ^ falseValue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>falseValue^falseValue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>false ^= false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trueValue ^= false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trueValue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trueValue &amp;= false</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -430,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="82" column="45" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="45" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
         </state>
       </provider>
     </entry>
