@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+            <state relative-caret-position="187">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -44,6 +44,7 @@
       <find>Float</find>
       <find>Byte</find>
       <find>char</find>
+      <find>q</find>
     </findStrings>
     <replaceStrings>
       <replace>float</replace>
@@ -54,6 +55,7 @@
       <replace>Double</replace>
       <replace>Char</replace>
       <replace>Boolena</replace>
+      <replace>s</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\Workspaces\IdeaProjects\Complete Java\src\java\core</dir>
@@ -79,6 +81,9 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/core/dataTypes/BooleanDataType.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/string/StringAsDataType.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperator.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java" />
       </list>
     </option>
   </component>
@@ -137,6 +142,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="operators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="primitiveDataTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -167,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArithmeticOperators">
+  <component name="RunManager" selected="Application.RelationalOperators">
     <configuration name="ArithmeticOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.ArithmeticOperators" />
       <module name="CompleteJava" />
@@ -207,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.primitiveDataTypes.DoubleDataType" />
+    <configuration name="RelationalOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.operators.RelationalOperators" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaConcepts.core.primitiveDataTypes.*" />
+          <option name="PATTERN" value="javaConcepts.core.operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,19 +255,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DoubleDataType" />
       <item itemvalue="Application.CharDataType" />
       <item itemvalue="Application.BooleanDataType" />
       <item itemvalue="Application.StringAsDataType" />
       <item itemvalue="Application.ArithmeticOperators" />
+      <item itemvalue="Application.RelationalOperators" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RelationalOperators" />
         <item itemvalue="Application.ArithmeticOperators" />
         <item itemvalue="Application.StringAsDataType" />
         <item itemvalue="Application.BooleanDataType" />
         <item itemvalue="Application.CharDataType" />
-        <item itemvalue="Application.DoubleDataType" />
       </list>
     </recent_temporary>
   </component>
@@ -259,25 +280,25 @@
       <updated>1568383249716</updated>
       <workItem from="1568383260729" duration="829000" />
       <workItem from="1569140360512" duration="5112000" />
-      <workItem from="1569680598621" duration="3821000" />
+      <workItem from="1569680598621" duration="4716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9762000" />
+    <option name="totallyTimeSpent" value="10657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,8 +389,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
