@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/AreaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/DecimalComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/IntEqualityPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/MinutesToYearsDaysCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/PlayingCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/SpeedConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/EvenDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FactorPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FirstLastDigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FlourPacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/GreatestCommonDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/LastDigitChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberInWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberOfDaysInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberToWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/SharedDigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,10 +30,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/PlayingCat.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+              <folding>
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,13 +107,26 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/LogicalOperators.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/AssignmentOperator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/TernaryOperator.java" />
-        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/LeapYear.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/SpeedConverter.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/DecimalComparator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/AreaCalculator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/MinutesToYearsDaysCalculator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/IntEqualityPrinter.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/PlayingCat.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/NumberInWord.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/LeapYear.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/NumberOfDaysInMonth.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/FirstLastDigitSum.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/EvenDigitSum.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/SharedDigit.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/LastDigitChecker.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/FactorPrinter.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/NumberPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/NumberToWords.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/FlourPacker.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java" />
       </list>
     </option>
   </component>
@@ -118,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,14 +203,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -204,9 +228,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlayingCat">
-    <configuration name="AreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.AreaCalculator" />
+  <component name="RunManager" selected="Application.DiagonalStar">
+    <configuration name="DiagonalStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.DiagonalStar" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecimalComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.DecimalComparator" />
+    <configuration name="FactorPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.FactorPrinter" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -231,8 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntEqualityPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.IntEqualityPrinter" />
+    <configuration name="FlourPacker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.FlourPacker" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -244,8 +268,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinutesToYearsDaysCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.MinutesToYearsDaysCalculator" />
+    <configuration name="LargestPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.LargestPrime" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -257,8 +281,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayingCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.PlayingCat" />
+    <configuration name="NumberToWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.NumberToWords" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -271,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecimalComparator" />
-      <item itemvalue="Application.AreaCalculator" />
-      <item itemvalue="Application.MinutesToYearsDaysCalculator" />
-      <item itemvalue="Application.IntEqualityPrinter" />
-      <item itemvalue="Application.PlayingCat" />
+      <item itemvalue="Application.FactorPrinter" />
+      <item itemvalue="Application.NumberToWords" />
+      <item itemvalue="Application.FlourPacker" />
+      <item itemvalue="Application.LargestPrime" />
+      <item itemvalue="Application.DiagonalStar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlayingCat" />
-        <item itemvalue="Application.IntEqualityPrinter" />
-        <item itemvalue="Application.MinutesToYearsDaysCalculator" />
-        <item itemvalue="Application.AreaCalculator" />
-        <item itemvalue="Application.DecimalComparator" />
+        <item itemvalue="Application.DiagonalStar" />
+        <item itemvalue="Application.LargestPrime" />
+        <item itemvalue="Application.FlourPacker" />
+        <item itemvalue="Application.NumberToWords" />
+        <item itemvalue="Application.FactorPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -297,25 +321,25 @@
       <workItem from="1568383260729" duration="829000" />
       <workItem from="1569140360512" duration="5112000" />
       <workItem from="1569680598621" duration="10004000" />
-      <workItem from="1569745041823" duration="5457000" />
+      <workItem from="1569745041823" duration="5771000" />
+      <workItem from="1570268020724" duration="14408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21402000" />
+    <option name="totallyTimeSpent" value="36124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +349,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -338,50 +362,62 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>df.format(b)</expression-string>
+        <expression-string>number / 2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df.format(a)</expression-string>
+        <expression-string>((bigFilled*5) + smallCount)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>trueValue ^ trueValue</expression-string>
+        <expression-string>((bigFilled*5) + smallCount) == goal</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>falseValue ^ falseValue</expression-string>
+        <expression-string>isValid(num2)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>falseValue^falseValue</expression-string>
+        <expression-string>isValid(num1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>false ^= false</expression-string>
+        <expression-string>n1.charAt(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>trueValue ^= false</expression-string>
+        <expression-string>a</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>trueValue</expression-string>
+        <expression-string>Integer.valueOf(Integer.valueOf(number).toString().charAt(0))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>trueValue &amp;= false</expression-string>
+        <expression-string>Integer.valueOf(number).toString().charAt(0) + &quot;k&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -489,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/LeapYear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/SpeedConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -551,8 +580,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/PlayingCat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/NumberOfDaysInMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/FirstLastDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/EvenDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/SharedDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/LastDigitChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="16" selection-start-line="16" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/FactorPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/NumberPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/NumberInWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="19" selection-start-line="21" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/NumberToWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/FlourPacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="37" selection-start-line="37" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding>
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
