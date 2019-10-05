@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/EvenDigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FactorPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FirstLastDigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/FlourPacker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/GreatestCommonDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/LastDigitChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberInWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberOfDaysInMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/NumberToWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/exercises/SharedDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -38,6 +25,15 @@
                 <element signature="e#1055#1056#0" expanded="true" />
                 <element signature="e#1089#1090#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -127,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/FlourPacker.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/LargestPrime.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java" />
       </list>
     </option>
   </component>
@@ -190,6 +187,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="scanner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,22 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiagonalStar">
+  <component name="RunManager" selected="Application.Inputs">
     <configuration name="DiagonalStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.DiagonalStar" />
-      <module name="CompleteJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaConcepts.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.exercises.FactorPrinter" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -261,6 +253,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaConcepts.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inputs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.scanner.Inputs" />
+      <module name="CompleteJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaConcepts.core.scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FactorPrinter" />
       <item itemvalue="Application.NumberToWords" />
       <item itemvalue="Application.FlourPacker" />
       <item itemvalue="Application.LargestPrime" />
       <item itemvalue="Application.DiagonalStar" />
+      <item itemvalue="Application.Inputs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inputs" />
         <item itemvalue="Application.DiagonalStar" />
         <item itemvalue="Application.LargestPrime" />
         <item itemvalue="Application.FlourPacker" />
         <item itemvalue="Application.NumberToWords" />
-        <item itemvalue="Application.FactorPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -322,24 +327,24 @@
       <workItem from="1569140360512" duration="5112000" />
       <workItem from="1569680598621" duration="10004000" />
       <workItem from="1569745041823" duration="5771000" />
-      <workItem from="1570268020724" duration="14408000" />
+      <workItem from="1570268020724" duration="14904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36124000" />
+    <option name="totallyTimeSpent" value="36620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -688,6 +693,13 @@
             <element signature="e#1055#1056#0" expanded="true" />
             <element signature="e#1089#1090#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
         </state>
       </provider>
     </entry>
