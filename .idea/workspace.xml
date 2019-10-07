@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/controlFlow/DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/examples/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/controlFlow/DoWhileLoop.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/examples/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="133">
+              <caret line="48" column="114" selection-start-line="48" selection-start-column="114" selection-end-line="48" selection-end-column="114" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/controlFlow/WhileLoop.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -128,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/core/controlFlow/Switch.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/controlFlow/WhileLoop.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/controlFlow/DoWhileLoop.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/examples/Calculator.java" />
       </list>
     </option>
   </component>
@@ -174,7 +175,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="controlFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="scanner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Complete Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Complete Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaConcepts" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,13 +215,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoWhileLoop">
-    <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.controlFlow.DoWhileLoop" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.examples.Calculator" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaConcepts.core.controlFlow.*" />
+          <option name="PATTERN" value="javaConcepts.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.controlFlow.ForLoop" />
+    <configuration name="DoWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.core.controlFlow.DoWhileLoop" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -276,17 +284,17 @@
     <list>
       <item itemvalue="Application.IfElse" />
       <item itemvalue="Application.Switch" />
-      <item itemvalue="Application.ForLoop" />
       <item itemvalue="Application.WhileLoop" />
       <item itemvalue="Application.DoWhileLoop" />
+      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.DoWhileLoop" />
         <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.IfElse" />
-        <item itemvalue="Application.ForLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -304,26 +312,25 @@
       <workItem from="1570268020724" duration="16404000" />
       <workItem from="1570368347932" duration="125000" />
       <workItem from="1570368541751" duration="3729000" />
-      <workItem from="1570430472075" duration="5187000" />
+      <workItem from="1570430472075" duration="7559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47161000" />
+    <option name="totallyTimeSpent" value="49533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32931727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.7362785" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -666,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/exercises/DiagonalStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -723,6 +723,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/controlFlow/DoWhileLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/controlFlow/WhileLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -730,10 +737,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/controlFlow/DoWhileLoop.java">
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/scanner/Inputs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/examples/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="48" column="114" selection-start-line="48" selection-start-column="114" selection-end-line="48" selection-end-column="114" />
         </state>
       </provider>
     </entry>
