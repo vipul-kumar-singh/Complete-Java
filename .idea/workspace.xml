@@ -205,20 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhaserDemo">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.CountDownLatchDemo" />
-      <module name="CompleteJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaConcepts.advanced.threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ExecutorServiceDemo">
     <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.CyclicBarrierDemo" />
       <module name="CompleteJava" />
@@ -258,6 +245,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.ExecutorServiceDemo" />
+      <module name="CompleteJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaConcepts.advanced.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhaserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.PhaserDemo" />
       <module name="CompleteJava" />
@@ -272,19 +272,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
       <item itemvalue="Application.ExchangerDemo" />
       <item itemvalue="Application.ExchangerDemo2" />
       <item itemvalue="Application.PhaserDemo" />
+      <item itemvalue="Application.ExecutorServiceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceDemo" />
         <item itemvalue="Application.PhaserDemo" />
         <item itemvalue="Application.ExchangerDemo2" />
         <item itemvalue="Application.ExchangerDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
