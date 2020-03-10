@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaConcepts/advanced/threads/PhaserDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,24 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="55" column="22" selection-end-line="63" selection-end-column="1" />
-              <folding>
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo2.java">
+        <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/PhaserDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="782">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -86,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/javaConcepts/core/string/StringAsDataType.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/ArithmeticOperators.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperator.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/core/operators/RelationalOperators.java" />
@@ -137,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/javaConcepts/advanced/threads/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo.java" />
         <option value="$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo2.java" />
+        <option value="$PROJECT_DIR$/src/javaConcepts/advanced/threads/PhaserDemo.java" />
       </list>
     </option>
   </component>
@@ -219,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExchangerDemo2">
+  <component name="RunManager" selected="Application.PhaserDemo">
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.CountDownLatchDemo" />
       <module name="CompleteJava" />
@@ -272,8 +258,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.SemaphoreDemo" />
+    <configuration name="PhaserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaConcepts.advanced.threads.PhaserDemo" />
       <module name="CompleteJava" />
       <extension name="coverage">
         <pattern>
@@ -287,18 +273,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CountDownLatchDemo" />
-      <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
       <item itemvalue="Application.ExchangerDemo" />
       <item itemvalue="Application.ExchangerDemo2" />
+      <item itemvalue="Application.PhaserDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhaserDemo" />
         <item itemvalue="Application.ExchangerDemo2" />
         <item itemvalue="Application.ExchangerDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -327,18 +313,17 @@
       <workItem from="1583077317788" duration="1267000" />
       <workItem from="1583586207817" duration="929000" />
       <workItem from="1583781354802" duration="3468000" />
-      <workItem from="1583850434850" duration="1413000" />
+      <workItem from="1583850434850" duration="3166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67815000" />
+    <option name="totallyTimeSpent" value="69568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30495977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30495977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -352,7 +337,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32931727" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32931727" />
@@ -508,13 +493,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javaConcepts/core/primitiveDataTypes/DoubleDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -890,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="461">
           <caret line="55" column="22" selection-end-line="63" selection-end-column="1" />
           <folding>
             <element signature="e#832#833#0" expanded="true" />
@@ -902,7 +880,18 @@
     <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/ExchangerDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/javaConcepts/advanced/threads/PhaserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
         </state>
       </provider>
     </entry>
