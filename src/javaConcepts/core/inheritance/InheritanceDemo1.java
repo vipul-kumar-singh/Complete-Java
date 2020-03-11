@@ -23,6 +23,7 @@ public class InheritanceDemo1 {
 
 class Parent {
     private int a = 5;
+    public int b = 15;
 
     public int getA() {
         return a;
@@ -37,6 +38,7 @@ class Parent {
 class Child extends Parent{
 
     private int a = 4;
+    public int b = 16;
 
     public int getA(){
         return a;

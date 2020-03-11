@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858d6e05-35c2-43e7-b1c9-634a2d051699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/inheritance/InheritanceDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/inheritance/InheritanceDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/inheritance/InheritanceDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaConcepts/core/inheritance/InheritanceDemo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="929b496e-5152-4d03-80af-95bf91732455" name="Default Changelist" comment="Merge branch 'master' of https://github.com/vipul-kumar-singh/Complete-Java&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
